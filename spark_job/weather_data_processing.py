@@ -9,7 +9,7 @@ def main():
     project      = "project-945481aa-8032-4123-8b5"
     dataset      = "forecast"
     table        = "weather_data"
-    temp_bucket  = "bq-temp-gds"
+    temp_bucket  = "bq-temp-growdataskills"
     bucket       = "weather-data-growdataskills"
     today        = datetime.date.today().strftime("%Y-%m-%d")
     input_path   = f"gs://{bucket}/weather/{today}/forecast.csv"
