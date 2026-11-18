@@ -21,6 +21,7 @@ with DAG(
     schedule_interval=None,
     catchup=False,
     tags=["weather", "gcs"],
+    is_paused_upon_creation=True
 ) as dag:
 
     # -------------------------------------------------------------------
